@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: pixel-editor-asm
+    env: static
+    buildCommand: ""
+    startCommand: ""
+    staticPublishPath: .
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: no-cache
