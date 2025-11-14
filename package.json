@@ -1,7 +1,15 @@
 {
   "name": "pixel-editor-asm",
   "version": "1.0.0",
+  "description": "Online pixel editor for SimpleOS ASM code generation",
+  "main": "index.html",
   "scripts": {
-    "start": "serve -s ."
-  }
+    "start": "serve -s . -l 10000"
+  },
+  "dependencies": {
+    "serve": "^14.0.0"
+  },
+  "keywords": ["asm", "pixel-editor", "simpleos"],
+  "author": "Your Name",
+  "license": "MIT"
 }
